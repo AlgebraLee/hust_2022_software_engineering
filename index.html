@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link href="./index.css" rel="stylesheet">
+    <title>MusicPlayer</title>
+  </head>
+  <body>
+    <div id="first">
+      <img id="logo" src="./assets/Vinyl.png">
+      <div id="vol">
+        <button class="btn_vol" id="volume_plus" type="button" value="true">+</button>
+        <p id="textvol">volume</p>
+        <button class="btn_vol" id="volume_minus" type="button" value="true">-</button>
+      </div>
+      <p id="text">text</p>
+    </div>
+    <div id="btn">
+      <button class="button" id="previous" type="button" value="true"><</button>
+      <button class="button" id="play" type="button" value="true">🔴</button>
+      <button class="button" id="next" type="button" value="true">></button>
+    </div>
+  </body>
+  <script src="./renderer.js"></script>
+</html>

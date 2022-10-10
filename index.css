@@ -1,0 +1,81 @@
+html {
+    background-color: #303030;
+}
+
+#logo {
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#first {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#text {
+    color: blanchedalmond;
+    font-size: 25px;
+    position: absolute;
+    float: right;
+    bottom: 10%;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+#btn {
+    background-color: #353535;
+    display: flex;
+    justify-content: safe;
+    align-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 8px 8px 5px #323232;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#vol {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+#text_vol {
+    color: blanchedalmond;
+    font-size: 25px;
+    position: absolute;
+    float: right;
+    bottom: 10%;
+}
+
+.btn_vol {
+    color: white;
+    background-color: tomato;
+    font-size: 12px;
+    border-radius: 15%;
+}
+
+.button {
+    color: white;
+    width: 50px;
+    background-color: tomato;
+    font-size: 24px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
