@@ -1,8 +1,8 @@
 {
-  "name": "audioplayer",
+  "name": "playmusic",
   "version": "1.0.0",
-  "description": "a project",
-  "main": "main.js",
+  "description": "a music player with pretty interface",
+  "main": "background.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron-forge start",
