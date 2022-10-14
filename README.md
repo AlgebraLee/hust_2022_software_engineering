@@ -12,6 +12,8 @@
 
 ## 音乐播放器
 
+![img-mindmap](./musicplayer_mindmap.png)
+
 #### 个人登录
 
 #### 音乐播放、搜索、导入、下载  
