@@ -11,6 +11,7 @@ const createWindow = () => {
   });
   ipcMain.handle('ping', () => 'pong')
   win.loadFile('index.html');
+  win.webContents.openDevTools();  //开启调试工具
 };
 
 app.whenReady().then(() => {
