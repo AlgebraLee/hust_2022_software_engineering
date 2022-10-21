@@ -1,12 +1,12 @@
 <template>
   <div id="player">
-    <audio :src="getMP3(405998841)" id="player"></audio>
+    <audio :src="getMP3(id)" id="player"></audio>
     <p>this is player</p>
   </div>
 </template>
 
 <script>
-import getMP3 from '@/api/track'
+import getMP3 from '@/api/track.js'
 export default {
   name: 'MusicPlayer',
   props: {
@@ -14,6 +14,7 @@ export default {
   },
   data() {
     return  {
+      id: 
     }
   },
   methods: {
@@ -28,5 +29,6 @@ export default {
     align-self: center;
     height: 160px;
     width: 90px;
+    background-color: aliceblue;
   }
 </style>
