@@ -1,5 +1,3 @@
-import router from '@/router';
-import { doLogout, getCookie } from '@/utils/auth';
 import axios from 'axios';
 
 let baseURL = '';
@@ -24,7 +22,7 @@ service.interceptors.request.use(function (config) {
   if (!config.params) config.params = {};
   if (baseURL.length) {
     if (baseURL[0] !== '/' && !process.env.IS_ELECTRON) {
-      config.params.cookie = `MUSIC_U=${getCookie('MUSIC_U')};`;
+      // config.params.cookie = `MUSIC_U=${getCookie('MUSIC_U')};`;
     }
   } else {
     console.error("You must set up the baseURL in the service's config");
@@ -63,16 +61,6 @@ service.interceptors.response.use(
       data.msg === '需要登录'
     ) {
       console.warn('Token has expired. Logout now!');
-
-      // 登出帳戶
-      doLogout();
-
-      // 導向登入頁面
-      if (process.env.IS_ELECTRON === true) {
-        router.push({ name: 'loginAccount' });
-      } else {
-        router.push({ name: 'login' });
-      }
     }
   }
 );
