@@ -1,21 +1,15 @@
 <template>
-  <el-container>
-    <el-side>
-      dsada
-      <NavBar/>
-    </el-side>
-
-  </el-container>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
-
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    HelloWorld
   }
 }
 </script>
