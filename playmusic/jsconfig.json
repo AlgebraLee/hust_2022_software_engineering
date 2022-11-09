@@ -1,19 +1,15 @@
 {
+  // 支持 @ 的别名解析
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
-    "baseUrl": "./",
-    "moduleResolution": "node",
+    "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
-  }
+    "target": "ES6",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
