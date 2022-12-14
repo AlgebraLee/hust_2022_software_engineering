@@ -1,0 +1,17 @@
+.
+├── api
+├── assets
+│   ├── css
+│   ├── fonts
+│   └── icons
+├── components
+├── electron
+├── locale
+│   └── lang
+├── router
+├── store
+│   └── plugins
+├── utils
+└── views
+
+14 directories

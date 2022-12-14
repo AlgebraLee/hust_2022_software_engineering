@@ -1,0 +1,23 @@
+.
+├── 4.txt
+├── album.vue
+├── artistMV.vue
+├── artist.vue
+├── dailyTracks.vue
+├── explore.vue
+├── home.vue
+├── lastfmCallback.vue
+├── library.vue
+├── loginAccount.vue
+├── loginUsername.vue
+├── login.vue
+├── lyrics.vue
+├── mv.vue
+├── newAlbum.vue
+├── next.vue
+├── playlist.vue
+├── searchType.vue
+├── search.vue
+└── settings.vue
+
+0 directories, 20 files
